@@ -1,0 +1,13 @@
+[INFO 2012-04-07 14:16:50] com.pwemu.clientupdater.CPW:75 - Creating patch.
+[INFO 2012-04-07 14:16:52] com.pwemu.framework.crypt.RsaSha1:69 - Loaded private key: MIIBNwIBADANBgkqhkiG9w0BAQEFAASCASEwggEdAgEAAoGBANFKVCz/gfI2b/VX5q5WO31UcopjSdzea6divW4ekF49YWmUeXiv8Ie1RIvuPlY15E//iuLY1Oe/gFTaG6K+6ad74sQzgYxXMpm6F77nsqhAeTNR/Uwuau7npo13yLHCqr9wPdxoea+KibOxkMQ8lZkJSGdJU2v9vsVrTzx7sApJAgEAAoGBALPrhjm43elvywfLrVAqabHwqxc1DAaIX1vikp7cP5gEhH3TWinadpjzyB3TjltmsQPk12z0ovMnuhc3+ZILNalro5Ce/l3PQiUit3uJ3QCaI3BoT2092hnh69ty35+xDPRZVnLsWd0+K/yrfIcGtVc2DOY8AwsLJuMwIHY1jxwBAgEAAgEAAgEAAgEAAgEA
+[INFO 2012-04-07 14:16:52] com.pwemu.framework.crypt.RsaSha1:71 - Loaded public key: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRSlQs/4HyNm/1V+auVjt9VHKKY0nc3munYr1uHpBePWFplHl4r/CHtUSL7j5WNeRP/4ri2NTnv4BU2huivumne+LEM4GMVzKZuhe+57KoQHkzUf1MLmru56aNd8ixwqq/cD3caHmviomzsZDEPJWZCUhnSVNr/b7Fa088e7AKSQIDAQAB
+[INFO 2012-04-07 14:16:52] com.pwemu.clientupdater.CPW:167 - Creating next patch data.
+[INFO 2012-04-07 14:16:52] com.pwemu.clientupdater.CPW:172 - Using new files location = files/new/
+[INFO 2012-04-07 14:16:52] com.pwemu.clientupdater.CPW:173 - Using patch output folder = files/CPW/
+[INFO 2012-04-07 14:16:53] com.pwemu.clientupdater.CPWCreator:145 - Updating...
+[INFO 2012-04-07 14:16:53] com.pwemu.clientupdater.CPWCreator:147 - Updating element...
+[INFO 2012-04-07 14:16:56] com.pwemu.clientupdater.CPWCreator:149 - Success.
+[INFO 2012-04-07 14:16:56] com.pwemu.clientupdater.CPWCreator:147 - Updating launcher...
+[INFO 2012-04-07 14:16:56] com.pwemu.clientupdater.CPWCreator:149 - Success.
+[INFO 2012-04-07 14:16:56] com.pwemu.clientupdater.CPWCreator:147 - Updating patcher...
+[INFO 2012-04-07 14:16:57] com.pwemu.clientupdater.CPWCreator:149 - Success.
