@@ -1,5 +1,11 @@
-up-perfectworld:
+.PHONY: run
+run:
+	@echo "-=[ Building and Running the service ]=-"
 	docker-compose --file docker-compose.yaml up --build -d
+	@echo "-=[ Service running.. ]=-"
 
-down-perfectworld:
-	docker-compose --file docker-compose.yaml down
+.PHONY: stop
+stop:
+	@echo "-=[ Stopping the service ]=-"
+	@docker-compose --file docker-compose.yaml down
+	@echo "-=[ Service Stopped ]=-"
