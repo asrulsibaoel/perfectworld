@@ -207,7 +207,10 @@ services:
       GLINKD_DELIVERY_SERVER_6_PORT: 29306
       GLINKD_DELIVERY_SERVER_7_PORT: 29307
       TZ: Asia/Jakarta
-    image: ossperfectworld/perfect-world-glinkd:latest
+    image: pw_glinkd:latest
+    build:
+      context: ./glinkd
+      dockerfile: Dockerfile
     networks:
       infrastructure:
         ipv4_address: 172.30.1.9
@@ -261,7 +264,7 @@ services:
       TZ: Asia/Jakarta
     image: pw_web_server:latest
     build: 
-      context: ./CPW
+      context: ./web
       dockerfile: Dockerfile
     networks:
       infrastructure:
