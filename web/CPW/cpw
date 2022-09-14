@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -Xmx256m -cp ./lib/*:pw-cpw.jar com.pwemu.clientupdater.CPW $1 $2 $3

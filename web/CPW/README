@@ -1,0 +1,17 @@
+Usage:
+1) install
+2) initial
+3) create some patch
+
+Usage:
+	./cpw					show this message
+
+	./cpw install				install updater: mysql database setup, rsa keys generation, paths.
+	./cpw rsagen 				regenerate rsa keys
+	./cpw x [executable] 			patches executable with public rsa key
+
+	./cpw initial				creates initial (base) revision, doesn't creates lists
+	./cpw new [revision number]  		creates next or given revision, creates lists
+	./cpw revision [revision number]     	creates next or given revision, creates lists
+	./cpw listgen				update lists only
+	./cpw listupdate     			update lists only
